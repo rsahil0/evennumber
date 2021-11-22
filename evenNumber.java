@@ -20,9 +20,7 @@ import java.util.*;
 
         public static int sum(List<Integer> list)
         {
-            // create a stream of integers
-            // filter the stream
-            // add the integers
+      
             return list.stream()
                     .filter(i -> i > 5)
                     .mapToInt(i -> i)
